@@ -7,54 +7,104 @@ a {
     text-decoration: none;
 }
 
-html {
-    padding-left: 375px;
-    padding-right: 375px;
+body {
+    padding-left: 373px;
+    padding-right: 373px;
+    font-family: sans-serif;
 }
 
 .header {
-    margin-top: 45px;
+    padding-top: 40px;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header__menu {
-    padding-left: 400px;
+    padding-left: 495px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-
     font-size: 14px;
+}
+
+.header__link1 {
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top__content {
     margin-top: 89px;
     display: flex;
+    justify-content: center;
+    gap: 41px;
 }
 
-.top__text {
-    width: 522px;
+.top_h1 {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+
+.top__text {}
 
 .top__paragraf {
     padding-top: 17px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .top__button {
     padding-top: 37px;
+    display: flex;
+    gap: 72px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.top__img {
-    padding-left: 41px;
-    margin-bottom: 110px;
+.a__topbut {
+    flex-shrink: 0;
+    padding: 15px 36px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.a__topbut2 {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer {
-    margin-top: 97px;
+    padding-top: 259px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 42px;
-}
-
-.footer__img {
-    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
