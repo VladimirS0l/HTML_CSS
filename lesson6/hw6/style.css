@@ -152,6 +152,8 @@ body {
     align-items: center;
     align-content: center;
     justify-content: flex-end;
+    background-color: #F8F8F8;
+    ;
 }
 
 .item__text {
